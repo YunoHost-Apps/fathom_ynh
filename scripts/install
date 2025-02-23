@@ -11,6 +11,7 @@ source /usr/share/yunohost/helpers
 # INITIALIZE AND STORE SETTINGS
 #=================================================
 
+email=$(ynh_user_get_info --username=$admin --key=mail)
 key=$(ynh_string_random --length=16)
 ynh_app_setting_set --key=key --value=$key
 
@@ -43,6 +44,15 @@ ynh_config_add_nginx
 ynh_config_add_systemd
 
 yunohost service add "$app" --description="Privacy-focused website analytics" --log="/var/log/$app/$app.log"
+
+#=================================================
+# ADLIN USER
+#=================================================
+ynh_script_progression "Adding admin user..."
+
+pushd "$install_dir"
+	fathom user add --email="$email" --password="$password"
+popd
 
 #=================================================
 # START SYSTEMD SERVICE
