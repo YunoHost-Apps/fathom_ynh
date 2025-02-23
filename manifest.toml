@@ -21,7 +21,7 @@ code = "https://github.com/usefathom/fathom"
 [integration]
 yunohost = ">= 12.0.9"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
@@ -51,7 +51,7 @@ ram.runtime = "50M"
     arm64.url = "https://github.com/usefathom/fathom/releases/download/v1.3.1/fathom_1.3.1_linux_arm64.tar.gz"
     arm64.sha256 = "b463df056669954ba8d5e41c371a2f6fcf46d67ea176070849e8bcfcedd29875"
 
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
