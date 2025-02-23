@@ -51,7 +51,7 @@ yunohost service add "$app" --description="Privacy-focused website analytics" --
 ynh_script_progression "Adding admin user..."
 
 pushd "$install_dir"
-	fathom user add --email="$email" --password="$password"
+	./fathom user add --email="$email" --password="$password"
 popd
 
 #=================================================
