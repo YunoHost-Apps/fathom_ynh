@@ -1,0 +1,1 @@
+Fathom Analytics is quick and easy to set up with any website, CMS or programming framework.
