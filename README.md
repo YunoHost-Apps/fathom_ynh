@@ -4,8 +4,8 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/fathom.png" width="32px" alt="Logo of Fathom">
-  Fathom, packaged for YunoHost
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/fathom.png" width="32px" alt="Logo of Fathom Lite">
+  Fathom Lite, packaged for YunoHost
 </h1>
 
 Simple, privacy-focused website analytics
@@ -23,7 +23,7 @@ Simple, privacy-focused website analytics
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/fathom)](https://ci-apps.yunohost.org/ci/apps/fathom/)
 
-🛠️ Upstream Fathom repository: <https://github.com/usefathom/fathom>
+🛠️ Upstream Fathom Lite repository: <https://github.com/usefathom/fathom>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/fathom_ynh/tree/testing).
 
