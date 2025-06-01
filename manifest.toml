@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "fathom"
-name = "Fathom"
+name = "Fathom Lite"
 description.en = "Simple, privacy-focused website analytics"
 description.fr = "Analyse de site Web simple et respectueuse de la vie privée"
 
