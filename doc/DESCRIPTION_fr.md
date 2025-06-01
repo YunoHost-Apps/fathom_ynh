@@ -1,1 +1,1 @@
-Fathom Analytics est rapide et facile à mettre en place avec n'importe quel site web, CMS ou cadre de programmation.
+Fathom Analytics est rapide et facile à mettre en place avec n'importe quel site Web, CMS ou cadre de programmation.
